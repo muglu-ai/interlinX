@@ -1,0 +1,61 @@
+2025-11-02 10:36:56 | Error [2]: Undefined variable $headers in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/jwt_utils.php on line 88
+2025-11-02 10:50:29 | Error [2]: Undefined variable $headers in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/jwt_utils.php on line 88
+2025-11-02 10:52:27 | Error [2]: Undefined variable $headers in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/jwt_utils.php on line 88
+2025-11-02 10:52:48 | Error [2]: Undefined variable $headers in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/jwt_utils.php on line 88
+2025-11-04 10:26:45 | Error [2]: Undefined variable $link in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/register.php on line 175
+2025-11-04 10:28:15 | Error [2]: Undefined variable $link in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/register.php on line 175
+2025-11-04 10:28:18 | Error [2]: Undefined variable $link in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/register.php on line 175
+2025-11-04 10:28:19 | Error [2]: Undefined variable $link in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/register.php on line 175
+2025-11-04 10:29:40 | Error [2]: Undefined variable $test_title in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/register.php on line 178
+2025-11-04 11:24:59 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-04 11:24:59 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-04 11:26:36 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cruz Harry','','','','','','','','','','','sunil@liya.ai','','Liya.Ai™','','Fo' at line 1
+2025-11-04 12:59:03 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-04 12:59:03 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-04 12:59:26 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cruz Harry','','','','','','','','','','','sunil@liya.ai','','Liya.Ai™','','Fo' at line 1
+2025-11-05 06:13:04 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-05 06:13:04 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-07 13:15:42 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Silva','','','','','','','','','','','mira.dsilva@deliverycentric.com','','Deliv' at line 1
+2025-11-07 13:15:49 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Office','','+91-9032811277','','','','','','','','','','','','','','','','',''' at line 1
+2025-11-07 13:16:32 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-07 13:16:32 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-09 10:58:45 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Silva','','','','','','','','','','','mira.dsilva@deliverycentric.com','','Deliv' at line 1
+2025-11-09 10:58:46 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Office','','+91-9032811277','','','','','','','','','','','','','','','','',''' at line 1
+2025-11-09 11:12:40 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Silva','','','','','','','','','','','mira.dsilva@deliverycentric.com','','Deliv' at line 1
+2025-11-09 11:12:41 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Office','','+91-9032811277','','','','','','','','','','','','','','','','',''' at line 1
+2025-11-09 11:12:54 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-09 11:12:54 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-09 11:13:19 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cruz Harry','','','','','','','','','','','sunil@liya.ai','','Liya.Ai™','','Fo' at line 1
+2025-11-09 11:46:15 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Silva','','','','','','','','','','','mira.dsilva@deliverycentric.com','','Deliv' at line 1
+2025-11-09 11:46:16 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Office','','+91-9032811277','','','','','','','','','','','','','','','','',''' at line 1
+2025-11-09 11:46:30 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-09 11:46:30 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-09 11:46:55 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cruz Harry','','','','','','','','','','','sunil@liya.ai','','Liya.Ai™','','Fo' at line 1
+2025-11-09 11:49:51 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Silva','','','','','','','','','','','mira.dsilva@deliverycentric.com','','Deliv' at line 1
+2025-11-09 11:50:16 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Silva','','','','','','','','','','','mira.dsilva@deliverycentric.com','','Deliv' at line 1
+2025-11-09 11:57:58 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Silva','','','','','','','','','','','mira.dsilva@deliverycentric.com','','Deliv' at line 1
+2025-11-10 05:48:14 | Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Silva','','','','','','','','','','','mira.dsilva@deliverycentric.com','','Deliv' at line 1
+2025-11-11 06:41:39 | Exception: Incorrect string value: '\xC5\x82ugos...' for column 'fname' at row 1
+2025-11-11 06:42:40 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-11 06:42:41 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-11 11:06:42 | Exception: Incorrect string value: '\xC5\x82ugos...' for column 'fname' at row 1
+2025-11-11 11:07:27 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-11 11:07:27 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-11 12:31:53 | Exception: Incorrect string value: '\xC5\x82ugos...' for column 'fname' at row 1
+2025-11-11 12:32:37 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-11 12:32:37 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-12 05:40:43 | Exception: Incorrect string value: '\xC5\x82ugos...' for column 'fname' at row 1
+2025-11-12 05:41:27 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-12 05:41:27 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-12 06:52:43 | Exception: Incorrect string value: '\xC5\x82ugos...' for column 'fname' at row 1
+2025-11-12 06:53:28 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-12 06:53:28 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-12 10:52:43 | Exception: Incorrect string value: '\xC5\x82ugos...' for column 'fname' at row 1
+2025-11-12 10:53:31 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-12 10:53:31 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-12 13:03:05 | Exception: Incorrect string value: '\xC5\x82ugos...' for column 'fname' at row 1
+2025-11-12 13:03:52 | Exception: Incorrect string value: '\xC5\x82 Ros...' for column 'fname' at row 1
+2025-11-12 13:03:52 | Exception: Incorrect string value: '\xC5\x9Awita...' for column 'fname' at row 1
+2025-11-15 03:06:02 | Exception: Incorrect string value: '\xC5\x82ugos...' for column 'fname' at row 1
+2025-11-15 03:06:05 | Exception: Incorrect string value: '\xC5\x82ugos...' for column 'fname' at row 1
+2025-11-15 03:07:35 | Exception: Incorrect string value: '\xC5\x82ugos...' for column 'fname' at row 1

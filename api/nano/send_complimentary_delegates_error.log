@@ -1,0 +1,5 @@
+[09-Nov-2025 10:54:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 13 in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php:105
+Stack trace:
+#0 /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php(105): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php on line 105

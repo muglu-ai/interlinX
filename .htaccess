@@ -1,0 +1,10 @@
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "https://bts2024.chkdin.com"
+    Header set Access-Control-Allow-Credentials "true"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+</IfModule>
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]

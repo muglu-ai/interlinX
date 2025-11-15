@@ -1,0 +1,68 @@
+[09-Nov-2025 10:39:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 12 in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php:96
+Stack trace:
+#0 /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php(96): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php on line 96
+[09-Nov-2025 10:39:47 UTC] Shutdown error: Array
+(
+    [type] => 1
+    [message] => Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 12 in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php:96
+Stack trace:
+#0 /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php(96): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 {main}
+  thrown
+    [file] => /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php
+    [line] => 96
+)
+
+[09-Nov-2025 10:45:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 12 in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php:108
+Stack trace:
+#0 /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php(108): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php on line 108
+[09-Nov-2025 10:45:47 UTC] Shutdown error: Array
+(
+    [type] => 1
+    [message] => Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 12 in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php:108
+Stack trace:
+#0 /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php(108): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 {main}
+  thrown
+    [file] => /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php
+    [line] => 108
+)
+
+[09-Nov-2025 10:48:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 12 in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php:108
+Stack trace:
+#0 /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php(108): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php on line 108
+[09-Nov-2025 10:48:58 UTC] Shutdown error: Array
+(
+    [type] => 1
+    [message] => Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 12 in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php:108
+Stack trace:
+#0 /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php(108): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 {main}
+  thrown
+    [file] => /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php
+    [line] => 108
+)
+
+[09-Nov-2025 10:49:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 12 in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php:108
+Stack trace:
+#0 /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php(108): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php on line 108
+[09-Nov-2025 10:49:32 UTC] Shutdown error: Array
+(
+    [type] => 1
+    [message] => Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 12 in /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php:108
+Stack trace:
+#0 /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php(108): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 {main}
+  thrown
+    [file] => /home/btsblnl265_asd1d/public_html/web/bts-interlinx/api/nano/send_complimentary_delegates.php
+    [line] => 108
+)
+
