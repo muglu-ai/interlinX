@@ -116,6 +116,22 @@ class Messages_model extends Base_Model {
         $this->db->query($sql);
     }
     
+    /**
+     * Count how many messages a user has sent on a given date.
+     * Limits are applied irrespective of message type.
+     *
+     * @param string|int $userId
+     * @param string|null $date 'Y-m-d' format; defaults to today
+     * @return int
+     */
+    public function count_user_daily_sent($userId, $date = null) {
+        $targetDate = $date ?: date('Y-m-d');
+        $sql = "SELECT COUNT(*) AS cnt FROM " . EVENT_TBL_MSG . " WHERE (sender_id = ?) AND (msg_date = ?)";
+        $query = $this->db->query($sql, array($userId, $targetDate));
+        $row = $query->row_array();
+        return isset($row['cnt']) ? (int)$row['cnt'] : 0;
+    }
+    
     public function get_data($user_id) {
         $sql = "SELECT * FROM " . EVENT_TBL_MSG ."  WHERE (  ((read_flag != 'True') OR (ISNULL(read_flag) ) ) AND (msg_id != '') AND (sender_id != '') AND (receiver_id='$user_id') AND ( (receiver_dele_flag != 'True') || (ISNULL(receiver_dele_flag)) ) )";
         return $this->get_list_by_query($sql);
