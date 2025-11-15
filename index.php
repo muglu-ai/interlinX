@@ -1,55 +1,6 @@
 <?php
 
 
-
-// Start the session if it's not already started
-
-if (session_status() == PHP_SESSION_NONE) {
-
-    session_start();
-
-}
-
-
-
-// Set SameSite=None; Secure for session cookies
-
-if (isset($_COOKIE[session_name()])) {
-
-    setcookie(
-
-        session_name(),
-
-        $_COOKIE[session_name()],
-
-        [
-
-            'expires' => 0,
-
-            'path' => '/',
-
-            'domain' => '.bengalurutechsummit.com', // Update this to match your domain if necessary
-
-            'secure' => true, // Make sure this is true for HTTPS
-
-            'httponly' => true,
-
-            'samesite' => 'None', // Requires PHP 7.3+; see note below if on PHP 5.5
-
-        ]
-
-    );
-
-
-
-    // Manually set the SameSite=None cookie header for PHP < 7.3
-
-    header('Set-Cookie: ' . session_name() . '=' . session_id() . '; Path=/; Domain=.bengalurutechsummit.com; Secure; HttpOnly; SameSite=None');
-
-}
-
-
-
 // Enable CORS headers to allow cross-origin access from your PWA domain
 
 // header("Access-Control-Allow-Origin: *");

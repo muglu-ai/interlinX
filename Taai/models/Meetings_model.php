@@ -68,6 +68,12 @@ class Meetings_model extends Base_Model {
         if(isset($criteria['tej_data']) && !empty($criteria['tej_data'])) {
             $whereCondition = " (sender_user_id='" . $criteria['tej_sender_user_id'] . "' OR receiver_user_id='" . $criteria['tej_receiver_user_id'] . "') AND status='" . $criteria['status'] . "'";
         }
+        if(isset($criteria['status']) && !empty($criteria['status']) && empty($criteria['tej_data'])) {
+            if(!empty($whereCondition)) {
+                $whereCondition .= " AND ";
+            }
+            $whereCondition .= "status='" . $criteria['status'] . "'";
+        }
         if(!empty($whereCondition)) {
             $where = " WHERE " . $whereCondition;
         }

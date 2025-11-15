@@ -340,4 +340,16 @@ class Interlinx_reg_model extends Base_Model
         $sql = "select * from " . EVENT_TBL_INX_REG_TBL . " WHERE (user_id != '$usr_id_temp') ORDER BY srno DESC";
         return $this->get_list_by_query($sql);
     }
+    
+    /**
+     * Count total registrations excluding a user
+     * @param string|int $usr_id_temp
+     * @return int
+     */
+    public function get_total_registration_count($usr_id_temp)
+    {
+        $sql = "SELECT COUNT(*) AS cnt FROM " . EVENT_TBL_INX_REG_TBL . " WHERE (user_id != '$usr_id_temp')";
+        $row = $this->get_detail_by_query($sql, true);
+        return isset($row['cnt']) ? (int)$row['cnt'] : 0;
+    }
 }

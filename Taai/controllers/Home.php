@@ -15,22 +15,20 @@ class Home extends Base_Controller {
      * This route going to be called first
      */
     public function index() {
-        ini_set('memory_limit', '0');
-
 		$this->other_title_for_layout = ' | Home';
 		$user_id = $this->userauth->get_session('SESS_MEMBER_ID');
 		//print_r($_SESSION);
 		$shortlistPartnersList = $this->friends_model->get_friends_list_by_sql(array('user_id'=>$user_id));
 		//print_r($shortlistPartnersList);exit;
-		$messagesReceivedList = $this->messages_model->get_inbox_list_paging_by_criteria(array('user_id'=>$user_id));
+		$messagesReceivedList = $this->messages_model->get_inbox_list_paging_by_criteria(array('user_id'=>$user_id, 'offset'=>0, 'limit'=>10));
 		
-		$receivedMeetingList  = $this->meetings_model->get_meetings_list_by_criteria(array('receiver_user_id'=>$user_id, 'status'=>'Accepted'));
+		$receivedMeetingList  = $this->meetings_model->get_meetings_list_paging_by_criteria(array('receiver_user_id'=>$user_id, 'status'=>'Accepted', 'offset'=>0, 'limit'=>5));
 		
-		$sentMeetingList      = $this->meetings_model->get_meetings_list_by_criteria(array('sender_user_id'=>$user_id, 'status'=>'Accepted'));
+		$sentMeetingList      = $this->meetings_model->get_meetings_list_paging_by_criteria(array('sender_user_id'=>$user_id, 'status'=>'Accepted', 'offset'=>0, 'limit'=>5));
 		
-		$acceptedMeetings     = count($receivedMeetingList) + count($sentMeetingList);
+		$acceptedMeetings     = $this->meetings_model->get_meetings_count_by_criteria(array('receiver_user_id'=>$user_id, 'status'=>'Accepted')) + $this->meetings_model->get_meetings_count_by_criteria(array('sender_user_id'=>$user_id, 'status'=>'Accepted'));
 		//$pendingMeetingsList  = $this->meetings_model->get_meetings_list_by_criteria(array('receiver_user_id'=>$user_id, 'status'=>'Pending'));
-		$pendingMeetingsList  = $this->meetings_model->get_meetings_list_by_criteria(array('receiver_user_id'=>$user_id));
+		$pendingMeetingsList  = $this->meetings_model->get_meetings_list_paging_by_criteria(array('receiver_user_id'=>$user_id, 'offset'=>0, 'limit'=>5));
 	    
 		$res = $this->interlinx_reg_model->get_reg_detail_by_criteria(array('user_id'=>$user_id));
 		//print_r($res);exit;
@@ -47,7 +45,7 @@ class Home extends Base_Controller {
 
 
 		
-		$totalRegistration = $this->interlinx_reg_model->get_data5($user_id);
+		$totalRegistration = $this->interlinx_reg_model->get_total_registration_count($user_id);
 //        print_r($totalRegistration);
 //		print_r($matchedList);
 //		die;
