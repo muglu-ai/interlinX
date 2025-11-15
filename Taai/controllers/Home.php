@@ -1,5 +1,5 @@
 <?php
-ini_set('display_errors', 1);
+// ini_set('display_errors', 1);
 // set max memory limit to 0 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
