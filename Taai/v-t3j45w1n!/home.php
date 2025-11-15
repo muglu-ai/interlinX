@@ -56,7 +56,7 @@
 
 						<div class="inner pt-3 pb-3">
 
-							<h1 style="color:#f2f2f2;"><?php echo count($totalRegistration); ?></h1>
+							<h1 style="color:#f2f2f2;"><?php echo (int)$totalRegistration; ?></h1>
 
 							<h5 style="color:#f2f2f2;">Latest Registrations</h5>
 
