@@ -108,10 +108,10 @@ class Messages extends Base_Controller {
         $res = $this->interlinx_reg_model->get_reg_detail_by_criteria(array('user_id'=>$user_id));
         
         if($this->input->method(false) == 'post') {
-            // Enforce daily send limit (20 per day)
+            // Enforce daily send limit (50 per day)
             $sentToday = $this->messages_model->count_user_daily_sent($user_id);
-            if ($sentToday >= 20) {
-                $this->session->set_flashdata('is_error', 'Daily message limit reached (20 per day). Try again tomorrow.');
+            if ($sentToday >= 50) {
+                $this->session->set_flashdata('is_error', 'Daily message limit reached (50 per day). Try again tomorrow.');
                 $temp_msg_id = $this->security->xss_clean($this->input->post('temp_msg_id'));
                 if(!empty($temp_msg_id)) {
                     redirect('messages/read/' . $temp_msg_id);
@@ -277,10 +277,10 @@ class Messages extends Base_Controller {
         $user_id = $this->userauth->get_session('SESS_MEMBER_ID');
         
         if($this->input->method(false) == 'post') {
-            // Enforce daily send limit (20 per day)
+            // Enforce daily send limit (50 per day)
             $sentToday = $this->messages_model->count_user_daily_sent($user_id);
-            if ($sentToday >= 20) {
-                $this->session->set_flashdata('is_error', 'Daily message limit reached (20 per day). Try again tomorrow.');
+            if ($sentToday >= 50) {
+                $this->session->set_flashdata('is_error', 'Daily message limit reached (50 per day). Try again tomorrow.');
                 $is_meeting_send = $this->security->xss_clean($this->input->post('is_meeting_send'));
                 if(!empty($is_meeting_send)) {
                     $this->redirect_referer();
