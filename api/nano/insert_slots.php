@@ -155,7 +155,7 @@ function insertTimeSlots($timeSlots, $meetingDate, $conn) {
 
 
 
-        for ($tableNo = 1; $tableNo <= 10; $tableNo++) {
+        for ($tableNo = 10; $tableNo <= 20; $tableNo++) {
 
             $tableNoValue = "table_$tableNo";
 
