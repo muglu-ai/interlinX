@@ -152,7 +152,7 @@ $db['default'] = array(
 
 	'dsn'	=> '',
 
-	'hostname' => '95.216.2.164',
+	'hostname' => 'localhost',
 
 	'username' => 'btsblnl265_asd1d_bengaluruite',
 
